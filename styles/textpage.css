@@ -1,0 +1,104 @@
+/* common styles */
+.textpage-content-wrapper {
+    font-family: 'Quattrocento Sans', sans-serif;
+    height: 100%;
+    background-color: rgb(55, 55, 55);
+    color: white;
+    margin-top: -21px;
+}
+
+.textpage-content-wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* box showdow */
+.textpage-content-wrapper {
+    box-shadow: inset -85px -86px 1498px 78px rgba(0, 0, 0, 0.58);
+}
+
+
+/* left column */
+.textpage-content-wrapper > .left-column {
+    display: flex;
+    justify-content: space-between;
+}
+
+.textpage-content-wrapper > .left-column > .text > .intro-header {
+    width: 800px;
+    padding: 50px;
+    padding-left: 65px;
+    line-height: 65px;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+
+.textpage-content-wrapper > .left-column > .text > .intro-header h1{
+    font-weight: 100;
+}
+
+.textpage-content-wrapper > .left-column > .text > .intro-p {
+    width: 800px;
+    margin-top: -120px;
+    padding: 50px;
+    padding-left: 65px;
+    padding-bottom: 15px;
+    line-height: 60px;
+    letter-spacing: 2px;
+    font-size: 35px;
+    color: rgba(211, 211, 211, 0.624);
+}
+
+.textpage-content-wrapper > .left-column > .text > .left-column-btns {
+    display: flex;
+    width: 800px;
+    height: 135px;
+}
+
+.textpage-content-wrapper > .left-column > .text > .left-column-btns > .sign-up-free-btn{
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 0px 63px;
+    padding-bottom: 16px;
+    padding-top: -5px;
+    background-color: #00cb79;
+    height: 70px;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: black;
+}
+
+.textpage-content-wrapper > .left-column > .text > .left-column-btns > .learn-more-btn{
+
+    display: flex;
+    justify-content: center;
+    margin: 0px 0px 0px 63px;
+    padding-bottom: 16px;
+    padding-top: -5px;
+    background-color: black;
+    height: 70px;
+    width: 300px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+}
+
+/* right column */
+.textpage-content-wrapper > .right-column > .my-website-img-wrapper {
+    display: flex;
+    justify-content: right;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.textpage-content-wrapper > .right-column > .my-website-img-wrapper > .img-header {
+    margin-top: 65px;
+    font-size: 15px;
+}
+
+.textpage-content-wrapper > .right-column > .my-website-img-wrapper > .my-website-img img{
+    width: 100%;
+    height: 855px;
+}
+

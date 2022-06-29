@@ -1,0 +1,40 @@
+.footer {
+    background-color: rgba(0, 0, 0, 0.878);
+    color: white;
+    height: 500px;
+}
+
+.footer > .codepen-for-wrapper {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(55, 55, 55);
+}
+
+.footer > .codepen-for-wrapper > .for-teams{
+    padding-left: 90px;
+    border: 2px solid gray;
+    width: 100%;
+}
+
+.footer > .codepen-for-wrapper > .for-education{
+    padding-left: 90px;
+    border: 2px solid gray;
+    width: 100%;
+}
+
+.footer > .codepen-for-wrapper > .for-privacy{
+    padding-left: 90px;
+    border: 2px solid gray;
+    width: 100%;
+}
+
+.footer > .codepen-for-wrapper > .for-writing{
+    padding-left: 90px;
+    border: 2px solid gray;
+    width: 100%;
+}
+
+.copyright-wrapper {
+    background-color: rgba(0, 0, 0, 0.878);
+    color: gray;
+}
